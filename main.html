@@ -10,9 +10,10 @@
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="./css/swipebox.min.css" />
     <link rel="stylesheet" href="./css/slick.css" />
     <link rel="stylesheet" href="./css/style.min.css" />
+    <link rel="icon" href="favicon.svg">
 </head>
 
 <body>
@@ -23,14 +24,857 @@
         <!-- header -->
         <header class="header">
             <div class="inner-wrap">
-                44444
+                <div class="logo-wrap">
+                    <a href="" class="logo">
+                        <img src="./img/main/logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="actions-outer-wrap">
+                    <div class="actions-wrap">
+                        <div class="action-wrap">
+                            <a href="" class="btn button-second">
+                                <span class="button-ico">
+                                    <img src="./img/icons/view.svg" alt="">
+                                </span>
+                                <span class="button-title">Версия для слабовидящих</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="actions-wrap">
+                        <div class="action-wrap popup-search-wrap js-popup-wrap">
+                            <a href="" class="btn button-clear btn-popup js-btn-toggle">
+                                <span class="button-ico">
+                                    <img src="./img/icons/search.svg" alt="">
+                                </span>
+                                <span class="button-title">Поиск</span>
+                            </a>
+                            <div class="popup-content-block js-popup-block">
+                                <a href="" class="btn-popup-close btn-action-ico ico-close js-btn-close"></a>
+                                <form action="/" class="frm-field-search">
+                                    <input type="text" class="form-input" placeholder="Поиск">
+                                </form>
+                            </div>
+                        </div>
+                        <div class="action-wrap">
+                            <a href="" class="btn button-clear">
+                                <span class="button-ico">
+                                    <img src="./img/icons/user.svg" alt="">
+                                </span>
+                                <span class="button-title">Личный кабинет</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-wrap popup-menu-wrap js-popup-wrap">
+                    <a href="" class="btn-popup btn-action-ico ico-menu js-btn-toggle"></a>
+                    <div class="popup-content-block js-popup-block">
+                        <div class="menu-inner-wrap">
+                            <ul class="menu">
+                                <li><a href="" class="btn button-menu">Новости</a></li>
+                                <li><a href="" class="btn button-menu">Предметы</a></li>
+                                <li><a href="" class="btn button-menu active">Расписание олимпиад</a></li>
+                                <li><a href="" class="btn button-menu">Требования</a></li>
+                                <li><a href="" class="btn button-menu">Документы</a></li>
+                                <li><a href="" class="btn button-menu">Контакты</a></li>
+                            </ul>
+                        </div>
+                        <div class="actions-inner-wrap">
+                            <div class="action-wrap">
+                                <a href="" class="btn">
+                                    <span class="button-ico">
+                                        <img src="./img/icons/user.svg" alt="">
+                                    </span>
+                                    <span class="button-title">Личный кабинет</span>
+                                </a>
+                            </div>
+                            <div class="action-wrap">
+                                <a href="" class="btn button-second">
+                                    <span class="button-ico">
+                                        <img src="./img/icons/view.svg" alt="">
+                                    </span>
+                                    <span class="button-title">Версия для слабовидящих</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer-inner-wrap">
+                            <div class="footer-phones-wrap">
+                                <div class="footer-title">Горячая линия</div>
+                                <div class="footer-phone">
+                                    <a href="tel:84012592953">8 (4012) 59-29-53</a>
+                                </div>
+                                <div class="footer-phone">
+                                    <a href="tel:84012592969">8 (4012) 59-29-69</a>
+                                </div>
+                            </div>
+                            <div class="footer-soc-wrap">
+                                <a href="" class="btn-action-ico button-soc">
+                                    <img src="./img/icons/soc-vk.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="footer-info-wrap">
+                                <p>
+                                    © 2022 Все права принадлежат “ВСОШ”
+                                    <br>
+                                    <a href="" class="link-main">Соглашение об обработке персональных данных</a>
+                                </p>
+                                <p><a href="">Политика конфиденциальности</a></p>
+                                <p>
+                                    <a href="" class="footer-studio">
+                                        <img src="./img/main/logo-studio.svg" alt="">
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </header>
         <!-- /header -->
 
         <!-- page -->
-        <div class="page">
-            2222
+        <div class="page-full">
+
+            <!--top-slider-box-->
+            <div class="top-slider-box">
+                <div class="slider-wrap">
+                    <div class="slider">
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <div class="sl-info-wrap">
+                                <div class="sl-title h3-title">28 сентября–26 октября 2022</div>
+                                <div class="h1-title title-max-large">Школьный этап всероссийской олимпиады</div>
+                                <div class="sl-title h3-title">для школьников 4—11 классов</div>
+                                <div class="sl-action">
+                                    <a href="" class="btn button-light">
+                                        <span class="button-title">Перейти</span>
+                                        <span class="button-ico ico-large">
+                                            <img src="./img/icons/arrow-button.svg" alt="">
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="sl-photo-wrap">
+                                <div class="elm-photo">
+                                    <img src="./img/top-pic.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <div class="sl-info-wrap">
+                                <div class="sl-title h3-title">28 сентября–26 октября 2022</div>
+                                <div class="h1-title title-max-large">Школьный этап всероссийской олимпиады</div>
+                                <div class="sl-title h3-title">для школьников 4—11 классов</div>
+                                <div class="sl-action">
+                                    <a href="" class="btn button-light">
+                                        <span class="button-title">Перейти</span>
+                                        <span class="button-ico ico-large">
+                                            <img src="./img/icons/arrow-button.svg" alt="">
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="sl-photo-wrap">
+                                <div class="elm-photo">
+                                    <img src="./img/top-pic.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <div class="sl-info-wrap">
+                                <div class="sl-title h3-title">28 сентября–26 октября 2022</div>
+                                <div class="h1-title title-max-large">Школьный этап всероссийской олимпиады</div>
+                                <div class="sl-title h3-title">для школьников 4—11 классов</div>
+                                <div class="sl-action">
+                                    <a href="" class="btn button-light">
+                                        <span class="button-title">Перейти</span>
+                                        <span class="button-ico ico-large">
+                                            <img src="./img/icons/arrow-button.svg" alt="">
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="sl-photo-wrap">
+                                <div class="elm-photo">
+                                    <img src="./img/top-pic.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!--/sl-wrap-->
+                    </div>
+                </div>
+            </div>
+            <!--/top-slider-box-->
+
+            <!--documents-box-->
+            <div class="documents-box">
+                <div class="title-inner-wrap">
+                    <h1 class="h1-title title-large">Документы</h1>
+                </div>
+                <div class="items-wrap">
+                    <!--item wrap-->
+                    <div class="item-wrap">
+                        <div class="item-tile-doc">
+                            <a href="" class="tile-link-wrap">
+                                <span class="tile-photo">
+                                    <img src="./img/icons/file-pdf.svg" alt="">
+                                </span>
+                                <span class="tile-title-wrap">
+                                    <span class="tile-title">Нормативные базы за&nbsp;2022-2023</span>
+                                    <span class="tile-info">7,45 mb.pdf</span>
+                                </span>
+                            </a>
+                            <div class="tile-info-wrap">
+                                <a href="" class="btn-action-icon">
+                                    <span class="button-title">Скачать</span>
+                                    <span class="button-ico">
+                                        <img src="./img/icons/download.svg" alt="">
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/item wrap-->
+                    <!--item wrap-->
+                    <div class="item-wrap">
+                        <div class="item-tile-doc">
+                            <a href="" class="tile-link-wrap">
+                                <span class="tile-photo">
+                                    <img src="./img/icons/file-pdf.svg" alt="">
+                                </span>
+                                <span class="tile-title-wrap">
+                                    <span class="tile-title">Нормативные базы за&nbsp;2022-2023</span>
+                                    <span class="tile-info">7,45 mb.pdf</span>
+                                </span>
+                            </a>
+                            <div class="tile-info-wrap">
+                                <a href="" class="btn-action-icon">
+                                    <span class="button-title">Скачать</span>
+                                    <span class="button-ico">
+                                        <img src="./img/icons/download.svg" alt="">
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/item wrap-->
+                    <!--item wrap-->
+                    <div class="item-wrap">
+                        <div class="item-tile-doc">
+                            <a href="" class="tile-link-wrap">
+                                <span class="tile-photo">
+                                    <img src="./img/icons/file-pdf.svg" alt="">
+                                </span>
+                                <span class="tile-title-wrap">
+                                    <span class="tile-title">Нормативные базы за&nbsp;2022-2023</span>
+                                    <span class="tile-info">7,45 mb.pdf</span>
+                                </span>
+                            </a>
+                            <div class="tile-info-wrap">
+                                <a href="" class="btn-action-icon">
+                                    <span class="button-title">Скачать</span>
+                                    <span class="button-ico">
+                                        <img src="./img/icons/download.svg" alt="">
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/item wrap-->
+                </div>
+            </div>
+            <!--/documents-box-->
+
+            <!--objects-box-->
+            <div class="objects-box section-main">
+                <div class="title-inner-wrap">
+                    <h2 class="h1-title title-large">Предметы</h2>
+                </div>
+                <div class="items-inner-wrap">
+                    <div class="items-wrap">
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <a href="" class="item-tile-object">
+                                <span class="tile-photo-wrap">
+                                    <span class="tile-photo photo-contain">
+                                        <img src="./img/icons/object01.svg" alt="">
+                                    </span>
+                                </span>
+                                <span class="tile-title h3-title">Английский язык</span>
+                            </a>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <a href="" class="item-tile-object">
+                                <span class="tile-photo-wrap">
+                                    <span class="tile-photo photo-contain">
+                                        <img src="./img/icons/object02.svg" alt="">
+                                    </span>
+                                </span>
+                                <span class="tile-title h3-title">Астрономия</span>
+                            </a>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <a href="" class="item-tile-object">
+                                <span class="tile-photo-wrap">
+                                    <span class="tile-photo photo-contain">
+                                        <img src="./img/icons/object03.svg" alt="">
+                                    </span>
+                                </span>
+                                <span class="tile-title h3-title">Биология</span>
+                            </a>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <a href="" class="item-tile-object">
+                                <span class="tile-photo-wrap">
+                                    <span class="tile-photo photo-contain">
+                                        <img src="./img/icons/object04.svg" alt="">
+                                    </span>
+                                </span>
+                                <span class="tile-title h3-title">География</span>
+                            </a>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <a href="" class="item-tile-object">
+                                <span class="tile-photo-wrap">
+                                    <span class="tile-photo photo-contain">
+                                        <img src="./img/icons/object05.svg" alt="">
+                                    </span>
+                                </span>
+                                <span class="tile-title h3-title">Информатика и ИКТ</span>
+                            </a>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <a href="" class="item-tile-object">
+                                <span class="tile-photo-wrap">
+                                    <span class="tile-photo photo-contain">
+                                        <img src="./img/icons/object06.svg" alt="">
+                                    </span>
+                                </span>
+                                <span class="tile-title h3-title">Искусство</span>
+                            </a>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <a href="" class="item-tile-object">
+                                <span class="tile-photo-wrap">
+                                    <span class="tile-photo photo-contain">
+                                        <img src="./img/icons/object07.svg" alt="">
+                                    </span>
+                                </span>
+                                <span class="tile-title h3-title">Испанский язык</span>
+                            </a>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <a href="" class="item-tile-object">
+                                <span class="tile-photo-wrap">
+                                    <span class="tile-photo photo-contain">
+                                        <img src="./img/icons/object08.svg" alt="">
+                                    </span>
+                                </span>
+                                <span class="tile-title h3-title">История</span>
+                            </a>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <a href="" class="item-tile-object">
+                                <span class="tile-photo-wrap">
+                                    <span class="tile-photo photo-contain">
+                                        <img src="./img/icons/object09.svg" alt="">
+                                    </span>
+                                </span>
+                                <span class="tile-title h3-title">Итальянский язык</span>
+                            </a>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <a href="" class="item-tile-object">
+                                <span class="tile-photo-wrap">
+                                    <span class="tile-photo photo-contain">
+                                        <img src="./img/icons/object10.svg" alt="">
+                                    </span>
+                                </span>
+                                <span class="tile-title h3-title">Китайский язык</span>
+                            </a>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <a href="" class="item-tile-object">
+                                <span class="tile-photo-wrap">
+                                    <span class="tile-photo photo-contain">
+                                        <img src="./img/icons/object11.svg" alt="">
+                                    </span>
+                                </span>
+                                <span class="tile-title h3-title">Литература</span>
+                            </a>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <a href="" class="item-tile-object">
+                                <span class="tile-photo-wrap">
+                                    <span class="tile-photo photo-contain">
+                                        <img src="./img/icons/object12.svg" alt="">
+                                    </span>
+                                </span>
+                                <span class="tile-title h3-title">Математика</span>
+                            </a>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <a href="" class="item-tile-object">
+                                <span class="tile-photo-wrap">
+                                    <span class="tile-photo photo-contain">
+                                        <img src="./img/icons/object13.svg" alt="">
+                                    </span>
+                                </span>
+                                <span class="tile-title h3-title">Немецкий язык</span>
+                            </a>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <a href="" class="item-tile-object">
+                                <span class="tile-photo-wrap">
+                                    <span class="tile-photo photo-contain">
+                                        <img src="./img/icons/object14.svg" alt="">
+                                    </span>
+                                </span>
+                                <span class="tile-title h3-title">Обществознание</span>
+                            </a>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <a href="" class="item-tile-object">
+                                <span class="tile-photo-wrap">
+                                    <span class="tile-photo photo-contain">
+                                        <img src="./img/icons/object15.svg" alt="">
+                                    </span>
+                                </span>
+                                <span class="tile-title h3-title">ОБЖ</span>
+                            </a>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <a href="" class="item-tile-object">
+                                <span class="tile-photo-wrap">
+                                    <span class="tile-photo photo-contain">
+                                        <img src="./img/icons/object16.svg" alt="">
+                                    </span>
+                                </span>
+                                <span class="tile-title h3-title">Право</span>
+                            </a>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <a href="" class="item-tile-object">
+                                <span class="tile-photo-wrap">
+                                    <span class="tile-photo photo-contain">
+                                        <img src="./img/icons/object17.svg" alt="">
+                                    </span>
+                                </span>
+                                <span class="tile-title h3-title">Русский язык</span>
+                            </a>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <a href="" class="item-tile-object">
+                                <span class="tile-photo-wrap">
+                                    <span class="tile-photo photo-contain">
+                                        <img src="./img/icons/object18.svg" alt="">
+                                    </span>
+                                </span>
+                                <span class="tile-title h3-title">Технология (Культура дома)</span>
+                            </a>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <a href="" class="item-tile-object">
+                                <span class="tile-photo-wrap">
+                                    <span class="tile-photo photo-contain">
+                                        <img src="./img/icons/object19.svg" alt="">
+                                    </span>
+                                </span>
+                                <span class="tile-title h3-title">Физика</span>
+                            </a>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <a href="" class="item-tile-object">
+                                <span class="tile-photo-wrap">
+                                    <span class="tile-photo photo-contain">
+                                        <img src="./img/icons/object20.svg" alt="">
+                                    </span>
+                                </span>
+                                <span class="tile-title h3-title">Физическая культура (девушки)</span>
+                            </a>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <a href="" class="item-tile-object">
+                                <span class="tile-photo-wrap">
+                                    <span class="tile-photo photo-contain">
+                                        <img src="./img/icons/object21.svg" alt="">
+                                    </span>
+                                </span>
+                                <span class="tile-title h3-title">Физическая культура (юноши)</span>
+                            </a>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <a href="" class="item-tile-object">
+                                <span class="tile-photo-wrap">
+                                    <span class="tile-photo photo-contain">
+                                        <img src="./img/icons/object22.svg" alt="">
+                                    </span>
+                                </span>
+                                <span class="tile-title h3-title">Французский язык</span>
+                            </a>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <a href="" class="item-tile-object">
+                                <span class="tile-photo-wrap">
+                                    <span class="tile-photo photo-contain">
+                                        <img src="./img/icons/object23.svg" alt="">
+                                    </span>
+                                </span>
+                                <span class="tile-title h3-title">Химия</span>
+                            </a>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <a href="" class="item-tile-object">
+                                <span class="tile-photo-wrap">
+                                    <span class="tile-photo photo-contain">
+                                        <img src="./img/icons/object24.svg" alt="">
+                                    </span>
+                                </span>
+                                <span class="tile-title h3-title">Экология</span>
+                            </a>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <a href="" class="item-tile-object">
+                                <span class="tile-photo-wrap">
+                                    <span class="tile-photo photo-contain">
+                                        <img src="./img/icons/object25.svg" alt="">
+                                    </span>
+                                </span>
+                                <span class="tile-title h3-title">Экономика</span>
+                            </a>
+                        </div>
+                        <!--/item wrap-->
+                    </div>
+                    <div class="elm-photo photo-decor">
+                        <img src="./img/object-decor.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!--/objects-box-->
+
+            <!--news-box-->
+            <div class="news-box section-main">
+                <div class="title-inner-wrap">
+                    <h2 class="h1-title title-large">Новости</h2>
+                </div>
+                <div class="items-wrap">
+                    <!--item wrap-->
+                    <div class="item-wrap">
+                        <a href="" class="item-tile-new">
+                            <span class="tile-head-wrap">
+                                <span class="tile-ico color-blue">
+                                    <img src="./img/icons/calendar.svg" alt="">
+                                </span>
+                                <span class="tile-date">18 октября 2022</span>
+                            </span>
+                            <span class="tile-title-wrap">
+                                <span class="tile-title h3-title">В разделе документы опубликованы приказы Министерства образования Калининградской области по региональному этапу ВсОШ 2022-2023 года</span>
+                            </span>
+                            <span class="tile-action-wrap">
+                                <span class="btn-action-icon">
+                                    <span class="button-title">Подробнее</span>
+                                    <span class="button-ico ico-large">
+                                        <img src="./img/icons/arrow-button.svg" alt="">
+                                    </span>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                    <!--/item wrap-->
+                    <!--item wrap-->
+                    <div class="item-wrap">
+                        <a href="" class="item-tile-new">
+                            <span class="tile-head-wrap">
+                                <span class="tile-ico color-green">
+                                    <img src="./img/icons/calendar.svg" alt="">
+                                </span>
+                                <span class="tile-date">18 октября 2022</span>
+                            </span>
+                            <span class="tile-title-wrap">
+                                <span class="tile-title h3-title">В разделе документы опубликованы приказы Министерства образования Калининградской области по региональному этапу ВсОШ 2022-2023 года</span>
+                            </span>
+                            <span class="tile-action-wrap">
+                                <span class="btn-action-icon">
+                                    <span class="button-title">Подробнее</span>
+                                    <span class="button-ico ico-large">
+                                        <img src="./img/icons/arrow-button.svg" alt="">
+                                    </span>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                    <!--/item wrap-->
+                    <!--item wrap-->
+                    <div class="item-wrap">
+                        <a href="" class="item-tile-new">
+                            <span class="tile-head-wrap">
+                                <span class="tile-ico color-violet">
+                                    <img src="./img/icons/calendar.svg" alt="">
+                                </span>
+                                <span class="tile-date">18 октября 2022</span>
+                            </span>
+                            <span class="tile-title-wrap">
+                                <span class="tile-title h3-title">В разделе документы опубликованы приказы Министерства образования Калининградской области по региональному этапу ВсОШ 2022-2023 года</span>
+                            </span>
+                            <span class="tile-action-wrap">
+                                <span class="btn-action-icon">
+                                    <span class="button-title">Подробнее</span>
+                                    <span class="button-ico ico-large">
+                                        <img src="./img/icons/arrow-button.svg" alt="">
+                                    </span>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                    <!--/item wrap-->
+                    <!--item wrap-->
+                    <div class="item-wrap">
+                        <a href="" class="item-tile-new">
+                            <span class="tile-head-wrap">
+                                <span class="tile-ico color-black">
+                                    <img src="./img/icons/calendar.svg" alt="">
+                                </span>
+                                <span class="tile-date">18 октября 2022</span>
+                            </span>
+                            <span class="tile-title-wrap">
+                                <span class="tile-title h3-title">В разделе документы опубликованы приказы Министерства образования Калининградской области по региональному этапу ВсОШ 2022-2023 года</span>
+                            </span>
+                            <span class="tile-action-wrap">
+                                <span class="btn-action-icon">
+                                    <span class="button-title">Подробнее</span>
+                                    <span class="button-ico ico-large">
+                                        <img src="./img/icons/arrow-button.svg" alt="">
+                                    </span>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                    <!--/item wrap-->
+                </div>
+                <div class="action-inner-wrap">
+                    <a href="" class="btn button-border">
+                        <span class="button-title">Все новости</span>
+                        <span class="button-ico ico-large">
+                            <img src="./img/icons/arrow-button.svg" alt="">
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <!--/news-box-->
+
+            <!--links-box-->
+            <div class="links-box">
+                <div class="box-inner-wrap">
+                    <div class="title-inner-wrap">
+                        <div class="title-wrap">
+                            <h2 class="h1-title title-large">Полезные ссылки</h2>
+                            <div class="h3-title">Здесь мы собрали самые полезные ссылки</div>
+                        </div>
+                        <div class="action-wrap">
+                            <a href="" class="btn button-border">
+                                <span class="button-title">Перейти</span>
+                                <span class="button-ico ico-large">
+                                    <img src="./img/icons/arrow-button.svg" alt="">
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="items-inner-wrap">
+                        <div class="items-wrap">
+                            <!--item wrap-->
+                            <div class="item-wrap wrap01">
+                                <div class="item-tile-link tile-color-yellow">
+                                    <div class="tile-title h3-title">Методический сайт всероссийской олимпиады школьников</div>
+                                    <div class="tile-action">
+                                        <a target="_blank" href="olymp.apkpro.ru" class="btn-action-icon">
+                                            <span class="button-title">olymp.apkpro.ru</span>
+                                            <span class="button-ico">
+                                                <img src="./img/icons/arrow-link.svg" alt="">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap wrap02">
+                                <div class="item-tile-link tile-color-violet">
+                                    <div class="tile-title h3-title">Сайт всероссийской олимпиады школьников</div>
+                                    <div class="tile-action">
+                                        <a target="_blank" href="rosolymp.ru" class="btn-action-icon">
+                                            <span class="button-title">rosolymp.ru</span>
+                                            <span class="button-ico">
+                                                <img src="./img/icons/arrow-link.svg" alt="">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap wrap03">
+                                <div class="item-tile-link tile-color-black">
+                                    <div class="tile-title h3-title">Физические олимпиады школьников</div>
+                                    <div class="tile-action">
+                                        <a target="_blank" href="physolymp.ru" class="btn-action-icon">
+                                            <span class="button-title">physolymp.ru</span>
+                                            <span class="button-ico">
+                                                <img src="./img/icons/arrow-link.svg" alt="">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap wrap04">
+                                <div class="item-tile-link tile-color-green">
+                                    <div class="tile-title h3-title">Лекторий центральных предметно-методических комиссий</div>
+                                    <div class="tile-action">
+                                        <a target="_blank" href="olymp.apkpro.ru" class="btn-action-icon">
+                                            <span class="button-title">olymp.apkpro.ru</span>
+                                            <span class="button-ico">
+                                                <img src="./img/icons/arrow-link.svg" alt="">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap wrap05">
+                                <div class="item-tile-link tile-color-blue">
+                                    <div class="tile-title h3-title">Раздел на сайте ФГАОУ ДПО «Академия повышения квалификации и профессиональной переподготовки работников образования», посвященный олимпиаде</div>
+                                    <div class="tile-action">
+                                        <a target="_blank" href="apkpro.ru" class="btn-action-icon">
+                                            <span class="button-title">apkpro.ru</span>
+                                            <span class="button-ico">
+                                                <img src="./img/icons/arrow-link.svg" alt="">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/item wrap-->
+                        </div>
+                    </div>
+                    <div class="photo-inner-wrap">
+                        <div class="elm-photo">
+                            <img src="./img/link-pic.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/links-box-->
+
+            <!--link-box-->
+            <div class="link-box">
+                <div class="box-inner-wrap">
+                    <div class="title-inner-wrap">
+                        <h2 class="h1-title">Сириус</h2>
+                        <div class="h3-title">Образовательный центр</div>
+                    </div>
+                    <div class="action-inner-wrap">
+                        <a href="" class="btn button-border">
+                            <span class="button-title">Перейти</span>
+                            <span class="button-ico ico-large">
+                                <img src="./img/icons/arrow-button.svg" alt="">
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--/link-box-->
+
+            <!--form-box-->
+            <div class="form-box" id="form">
+                <div class="box-inner-wrap">
+                    <form action="/" class="form-inner-wrap">
+                        <div class="form-wrap">
+                            <h2 class="h1-title title-large">У вас остались вопросы?</h2>
+                            <div class="frm-row">
+                                <div class="frm-field">
+                                    <input type="text" class="form-input inp-second" placeholder="Имя" required>
+                                </div>
+                                <div class="frm-field">
+                                    <input type="tel" class="form-input inp-second" placeholder="Телефон" required>
+                                </div>
+                            </div>
+                            <div class="frm-row-submit">
+                                <div class="frm-field field-info">Нажимая на кнопку “Отправить” вы даете согласие на <a href="">Обработку персональных данных</a>.</div>
+                                <div class="frm-field field-submit">
+                                    <button type="submit" class="btn button-border">Отправить</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-message-wrap">
+                            <div class="elm-ico">
+                                <img src="./img/icons/succefull.svg" alt="">
+                            </div>
+                            <div class="h1-title title-large">Ваш запрос успешно отправлен!</div>
+                            <div class="h3-title">Наши специалисты свяжутся с вами в ближайшее время, для решения вопросов </div>
+                        </div>
+                    </form>
+                    <div class="photo-inner-wrap">
+                        <div class="elm-photo">
+                            <img src="./img/form-pic.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/form-box-->
+
         </div>
         <!-- /page -->
 
@@ -38,17 +882,112 @@
         <!-- footer -->
         <footer class="footer">
             <div class="inner-wrap">
-                333333
+                <div class="logo-wrap">
+                    <a href="" class="logo">
+                        <img src="./img/main/logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="footer-menu-wrap">
+                    <div class="menu-inner-wrap">
+                        <ul class="menu">
+                            <li><a href="" class="button-menu">Новости</a></li>
+                            <li><a href="" class="button-menu">Предметы</a></li>
+                            <li><a href="" class="button-menu active">Расписание олимпиад</a></li>
+                            <li><a href="" class="button-menu">Требования</a></li>
+                            <li><a href="" class="button-menu">Документы</a></li>
+                            <li><a href="" class="button-menu">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="actions-inner-wrap">
+                        <div class="action-wrap">
+                            <a href="" class="btn button-clear">
+                                <span class="button-ico">
+                                    <img src="./img/icons/view.svg" alt="">
+                                </span>
+                                <span class="button-title">Версия для слабовидящих</span>
+                            </a>
+                        </div>
+                        <div class="action-wrap">
+                            <a href="" class="btn button-border">
+                                <span class="button-ico">
+                                    <img src="./img/icons/user.svg" alt="">
+                                </span>
+                                <span class="button-title">Вход в личный кабинет</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-contacts-wrap">
+                    <div class="footer-phones-wrap">
+                        <div class="footer-title">Горячая линия</div>
+                        <div class="footer-phone">
+                            <a href="tel:84012592953">8 (4012) 59-29-53</a>
+                        </div>
+                        <div class="footer-phone">
+                            <a href="tel:84012592969">8 (4012) 59-29-69</a>
+                        </div>
+                    </div>
+                    <div class="footer-soc-wrap">
+                        <a href="" class="btn-action-ico button-soc">
+                            <img src="./img/icons/soc-vk.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-info-wrap">
+                    <div class="footer-info">
+                        <p>
+                            © 2022 Все права принадлежат “ВСОШ”
+                            <br>
+                            <a href="" class="link-main">Соглашение об обработке персональных данных</a>
+                        </p>
+                    </div>
+                    <div class="footer-info">
+                        <p><a href="">Политика конфиденциальности</a></p>
+                    </div>
+                    <div class="footer-info">
+                        <p>
+                            <a href="" class="footer-studio">
+                                <img src="./img/main/logo-studio.svg" alt="">
+                            </a>
+                        </p>
+                    </div>
+                </div>
             </div>
         </footer>
         <!-- /footer -->
+
+
+        <div class="popup-outer-box" id="popup-message01">
+            <div class="popup-box">
+                <a href="" class="btn-action-ico ico-close js-popup-close"></a>
+                <div class="popup-content-wrap">
+                    <div class="elm-ico">
+                        <img src="./img/icons/succefull.svg" alt="">
+                    </div>
+                    <div class="popup-title">Публикация прошла успешно</div>
+                </div>
+            </div>
+        </div>
+        <!--/popup-outer-box-->
+        <div class="popup-outer-box" id="popup-message02">
+            <div class="popup-box">
+                <a href="" class="btn-action-ico ico-close js-popup-close"></a>
+                <div class="popup-content-wrap">
+                    <div class="elm-ico">
+                        <img src="./img/icons/succefull.svg" alt="">
+                    </div>
+                    <div class="popup-title">Таблица сохранена</div>
+                </div>
+            </div>
+        </div>
+        <!--/popup-outer-box-->
 
     </div>
     <!-- /wrap -->
 
     <script src="./js/jquery.min.js"></script>
-    <script src="./js/jquery.fancybox.min.js"></script>
     <script src="./js/slick.min.js"></script>
+    <script src="./js/jquery.swipebox.min.js"></script>
     <script src="./js/jquery.maskedinput.min.js"></script>
     <script src="./js/scripts.js"></script>
 
