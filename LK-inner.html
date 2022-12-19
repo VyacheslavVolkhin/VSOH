@@ -11,6 +11,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/swipebox.min.css" />
+    <link rel="stylesheet" href="./css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="./css/select2.min.css" />
     <link rel="stylesheet" href="./css/slick.css" />
     <link rel="stylesheet" href="./css/style.min.css" />
     <link rel="icon" href="favicon.svg">
@@ -182,9 +184,314 @@
             </div>
             <!--/tabs-buttons-box-->
 
+
+            <!--filter-box-->
+            <div class="filter-box">
+                <h2 class="h2-title">Выберите свой муниципальный&nbsp;округ</h2>
+                <div class="frm-row">
+                    <div class="frm-field">
+                        <select class="form-input form-select" required data-placeholder="Выберите округ">
+                            <option selected disabled hidden value="">Выберите округ</option>
+                            <!--placeholder-->
+                            <option>Гвардейский муниципальный округ</option>
+                            <option>Гвардейский муниципальный округ</option>
+                            <option>Гвардейский муниципальный округ</option>
+                            <option>Гвардейский муниципальный округ</option>
+                        </select>
+                    </div>
+                    <div class="frm-field">
+                        <select class="form-input form-select" required data-placeholder="Выберите год">
+                            <option selected disabled hidden value="">Выберите год</option>
+                            <!--placeholder-->
+                            <option>2021 - 2022</option>
+                            <option>2020 - 2021</option>
+                            <option>2019 - 2020</option>
+                            <option>2018 - 2019</option>
+                            <option>2017 - 2018</option>
+                            <option>2016 - 2017</option>
+                            <option>2015 - 2016</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <!--/filter-box-->
+
             <!--tab-box-->
-            <div class="tab-box">
-                333333
+            <div class="tab-box js-tab-block" data-tab="tab01">
+
+                <div class="table-box table-full table-center">
+                    <div class="table-inner-wrap">
+                        <div class="table-scroll-wrap">
+                            <table class="tbl-main tbl-main-inner">
+                                <thead>
+                                    <tr class="tr-color">
+                                        <th class="color-first" colspan="6">Ученик</th>
+                                        <th class="color-second">Учитель</th>
+                                        <th class="color-third" colspan="4">Информация</th>
+                                        <th class="color-four" colspan="4">Результаты участия</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Удалить строку</th>
+                                        <th>№</th>
+                                        <th>Ф.И.О</th>
+                                        <th>Дата рождения</th>
+                                        <th>Пол</th>
+                                        <th>Гражданство</th>
+                                        <th>Ф.И.О</th>
+                                        <th>Муниципалитет</th>
+                                        <th>Полное название ОУ</th>
+                                        <th>Сокр. название ОУ</th>
+                                        <th>Класс обучения</th>
+                                        <th>Предмет</th>
+                                        <th>Статус участника</th>
+                                        <th>Результат</th>
+                                        <th>Место</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <a href="" class="btn button-second btn-action-ico ico-trash js-tooltip" title="Удалить строку"></a>
+                                        </td>
+                                        <td>1</td>
+                                        <td>Иванов Иван Иванович</td>
+                                        <td>1 января 1983 г.</td>
+                                        <td>Муж.</td>
+                                        <td>Российское</td>
+                                        <td>Иванов Иван Иванович</td>
+                                        <td>Гвардейский округ</td>
+                                        <td>Название</td>
+                                        <td>Название</td>
+                                        <td>Название</td>
+                                        <td>Название</td>
+                                        <td>Название</td>
+                                        <td>Название</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="" class="btn button-second btn-action-ico ico-trash js-tooltip" title="Удалить строку"></a>
+                                        </td>
+                                        <td>2</td>
+                                        <td>Иванов Иван Иванович</td>
+                                        <td>1 января 1983 г.</td>
+                                        <td>Муж.</td>
+                                        <td>Российское</td>
+                                        <td>Иванов Иван Иванович</td>
+                                        <td>Гвардейский округ</td>
+                                        <td>Название</td>
+                                        <td>Название</td>
+                                        <td>Название</td>
+                                        <td>Название</td>
+                                        <td>Название</td>
+                                        <td>Название</td>
+                                        <td>2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="" class="btn button-second btn-action-ico ico-trash js-tooltip" title="Удалить строку"></a>
+                                        </td>
+                                        <td>3</td>
+                                        <td>Иванов Иван Иванович</td>
+                                        <td>1 января 1983 г.</td>
+                                        <td>Муж.</td>
+                                        <td>Российское</td>
+                                        <td>Иванов Иван Иванович</td>
+                                        <td>Гвардейский округ</td>
+                                        <td>Название</td>
+                                        <td>Название</td>
+                                        <td>Название</td>
+                                        <td>Название</td>
+                                        <td>Название</td>
+                                        <td>Название</td>
+                                        <td>3</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!--actions-buttons-box-->
+                <div class="actions-buttons-box">
+                    <div class="frm-row">
+                        <div class="frm-field field-half">
+                            <a href="" class="btn button-second">
+                                <span class="button-title">Сохранить </span>
+                            </a>
+                        </div>
+                        <div class="frm-field field-half">
+                            <a href="" class="btn button-second">
+                                <span class="button-ico">
+                                    <img src="./img/icons/plus.svg" alt="">
+                                </span>
+                                <span class="button-title">Добавить строки </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="frm-row">
+                        <div class="frm-field field-full">
+                            <a href="" class="btn butotn-border-att">
+                                <span class="button-title">Опубликовать на сайте</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--/actions-buttons-box-->
+
+            </div>
+            <!--/tab-box-->
+
+            <!--tab-box-->
+            <div class="tab-box js-tab-block" data-tab="tab02">
+
+                <!--doc-list-box-->
+                <div class="doc-list-box">
+                    <div class="items-wrap">
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <div class="item-tile-doc-list">
+                                <div class="tile-title-wrap">
+                                    <div class="tile-title">Введите название документа</div>
+                                </div>
+                                <div class="tile-actions-wrap">
+                                    <div class="tile-action">
+                                        <div class="frm-field-file js-field-file">
+                                            <input type="file" class="js-field-input">
+                                            <a href="" class="btn button-second js-file-button">
+                                                <span class="button-ico">
+                                                    <img src="./img/icons/attach.svg" alt="">
+                                                </span>
+                                                <span class="button-title" data-title="Прикрепить документ"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="tile-action">
+                                        <a href="" class="btn button-second">
+                                            <span class="button-ico">
+                                                <img src="./img/icons/trash.svg" alt="">
+                                            </span>
+                                            <span class="button-title">Удалить</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <div class="item-tile-doc-list">
+                                <div class="tile-title-wrap">
+                                    <div class="tile-title">Введите название документа</div>
+                                </div>
+                                <div class="tile-actions-wrap">
+                                    <div class="tile-action">
+                                        <div class="frm-field-file js-field-file">
+                                            <input type="file" class="js-field-input">
+                                            <a href="" class="btn button-second js-file-button">
+                                                <span class="button-ico">
+                                                    <img src="./img/icons/attach.svg" alt="">
+                                                </span>
+                                                <span class="button-title" data-title="Прикрепить документ"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="tile-action">
+                                        <a href="" class="btn button-second">
+                                            <span class="button-ico">
+                                                <img src="./img/icons/trash.svg" alt="">
+                                            </span>
+                                            <span class="button-title">Удалить</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <div class="item-tile-doc-list">
+                                <div class="tile-title-wrap">
+                                    <div class="tile-title">Введите название документа</div>
+                                </div>
+                                <div class="tile-actions-wrap">
+                                    <div class="tile-action">
+                                        <div class="frm-field-file js-field-file">
+                                            <input type="file" class="js-field-input">
+                                            <a href="" class="btn button-second js-file-button">
+                                                <span class="button-ico">
+                                                    <img src="./img/icons/attach.svg" alt="">
+                                                </span>
+                                                <span class="button-title" data-title="Прикрепить документ"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="tile-action">
+                                        <a href="" class="btn button-second">
+                                            <span class="button-ico">
+                                                <img src="./img/icons/trash.svg" alt="">
+                                            </span>
+                                            <span class="button-title">Удалить</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <div class="item-tile-doc-list">
+                                <div class="tile-title-wrap">
+                                    <div class="tile-title">Введите название документа</div>
+                                </div>
+                                <div class="tile-actions-wrap">
+                                    <div class="tile-action">
+                                        <div class="frm-field-file js-field-file">
+                                            <input type="file" class="js-field-input">
+                                            <a href="" class="btn button-second js-file-button">
+                                                <span class="button-ico">
+                                                    <img src="./img/icons/attach.svg" alt="">
+                                                </span>
+                                                <span class="button-title" data-title="Прикрепить документ"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="tile-action">
+                                        <a href="" class="btn button-second">
+                                            <span class="button-ico">
+                                                <img src="./img/icons/trash.svg" alt="">
+                                            </span>
+                                            <span class="button-title">Удалить</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                    </div>
+                </div>
+                <!--/doc-list-box-->
+
+                <!--actions-buttons-box-->
+                <div class="actions-buttons-box">
+                    <div class="frm-row">
+                        <div class="frm-field field-half">
+                            <a href="" class="btn button-second">
+                                <span class="button-ico">
+                                    <img src="./img/icons/plus.svg" alt="">
+                                </span>
+                                <span class="button-title">Добавить строки </span>
+                            </a>
+                        </div>
+                        <div class="frm-field field-half">
+                            <a href="" class="btn button-border-att">
+                                <span class="button-title">Опубликовать на сайт </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--/actions-buttons-box-->
+
             </div>
             <!--/tab-box-->
 
@@ -302,6 +609,8 @@
 
     <script src="./js/jquery.min.js"></script>
     <script src="./js/slick.min.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
+    <script src="./js/select2.min.js"></script>
     <script src="./js/jquery.swipebox.min.js"></script>
     <script src="./js/jquery.maskedinput.min.js"></script>
     <script src="./js/scripts.js"></script>

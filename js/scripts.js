@@ -19,6 +19,45 @@ $(document).ready(function(){
 	  });
 	  return this;
 	};
+    
+    
+    //tooltip
+    //tooltip
+    $('.js-tooltip').tooltip({
+        position: {my: "left top", at: "left bottom+6"}
+    })
+    $(document).on('click', '.js-tooltip', function () {
+        if ($(window).innerWidth() < 1024) {
+            $(this).tooltip();
+            $(this).tooltip("open");
+        }
+    })
+
+
+    //file input 
+    $('.js-field-file .js-file-button').on('click', function () {
+        $(this).parent().find('input').click();
+        return false;
+    })
+    $('.js-field-file input[type=file]').on('change', function () {
+        let fileName = ('' + $(this).val());
+        if (fileName.length > 30) {
+            fileName = fileName.substring(0, 15) + '...';
+        }
+        if (fileName == "") {
+            fileName = $(this).parent().find('.js-file-button').find('.button-title').attr('data-title');
+            $(this).parent().removeClass('active').find('.js-file-button').find('.button-title').html('');
+        } else {
+            $(this).parent().addClass('active').find('.js-file-button').find('.button-title').html(fileName);
+        }
+    });
+    
+    
+    //select style
+    $('.form-select').select2({
+        placeholder: $(this).attr('data-placeholder'),
+        allowClear: true
+    })
 
 
     //popups

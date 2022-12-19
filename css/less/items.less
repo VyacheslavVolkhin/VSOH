@@ -1,6 +1,52 @@
 /* ----------------------------------- *\
 			items styles
 \* ----------------------------------- */
+.item-tile-doc-list {
+    display: block;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #D6D6D6;
+    border-radius: 10px;
+    padding: 15px 12px 5px 22px;
+    color: var(--clr-title);
+    .tile-title-wrap {
+        margin-bottom: 20px;
+    }
+    .tile-actions-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -5px 0 0;
+    }
+    .tile-action {
+        padding: 0 5px 0 0;
+        margin-bottom: 5px;
+    }
+    .tile-title {
+        display: block;
+        font-size: 16px;
+        line-height: 22/16;
+        font-weight: 500;
+    }
+    .btn {
+        padding: 0 10px 0 5px;
+        height: 39px;
+        border-radius: 10px;
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: 500;
+        &.button-second {
+            &:not(:hover) {
+                color: fade(#171D26, 50);
+                .button-ico {
+                    opacity: 0.5;
+                }
+            }
+        }
+        .button-ico {
+            margin: 0 5px 0 0;
+        }
+    }
+}
 .item-tile-cnt {
     display: block;
     position: relative;
@@ -506,13 +552,40 @@
         font-size: 16px;
         line-height: 22/16;
         padding: 20px;
-        .cnt-link {o
+        .cnt-link {
             font-size: 20px;
             line-height: 27/20;
         }
     }
 }
 @media (min-width: 1024px) {
+    .item-tile-doc-list {
+        padding: 10px;
+        border-radius: 20px;
+        display: flex;
+        .tile-title-wrap {
+            margin: 0;
+            flex: 1;
+            padding: 0 10px 0 10px;
+            min-height: 39px;
+            display: flex;
+            align-items: center;
+        }
+        .tile-title {
+            margin: 0;
+            flex-shrink: 0;
+            width: 100%;
+        }
+        .tile-actions-wrap {
+            flex-wrap: nowrap;
+            margin: 0;
+            flex-shrink: 0;
+        }
+        .tile-action {
+            padding: 0 0 0 5px;
+            margin: 0;
+        }
+    }
     .item-tile-folder {
         font-size: 2rem;
         line-height: 23/20;
