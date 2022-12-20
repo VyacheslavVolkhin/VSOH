@@ -191,12 +191,87 @@ h3.title-large,
 table {
   margin-bottom: 50px;
 }
+table.tbl-fix {
+  table-layout: fixed;
+  width: auto !important;
+  max-width: inherit;
+}
+table.tbl-fix .col01 {
+  width: 157px;
+  min-width: 157px;
+}
+table.tbl-fix .col02 {
+  width: 74px;
+  min-width: 74px;
+}
+table.tbl-fix .col03 {
+  width: 301px;
+  min-width: 301px;
+}
+table.tbl-fix .col04 {
+  width: 200px;
+  min-width: 200px;
+}
+table.tbl-fix .col05 {
+  width: 92px;
+  min-width: 92px;
+}
+table.tbl-fix .col06 {
+  width: 173px;
+  min-width: 173px;
+}
+table.tbl-fix .col07 {
+  width: 260px;
+  min-width: 260px;
+}
+table.tbl-fix .col08 {
+  width: 200px;
+  min-width: 200px;
+}
+table.tbl-fix .col09 {
+  width: 200px;
+  min-width: 200px;
+}
+table.tbl-fix .col10 {
+  width: 200px;
+  min-width: 200px;
+}
+table.tbl-fix .col11 {
+  width: 200px;
+  min-width: 200px;
+}
+table.tbl-fix .col12 {
+  width: 200px;
+  min-width: 200px;
+}
+table.tbl-fix .col13 {
+  width: 200px;
+  min-width: 200px;
+}
+table.tbl-fix .col14 {
+  width: 200px;
+  min-width: 200px;
+}
+table.tbl-fix .col15 {
+  width: 100px;
+  min-width: 100px;
+}
 table.tbl-main {
   font-size: 16px;
   line-height: 1.375;
   font-weight: 500;
   border-collapse: separate;
   border-spacing: 0 5px;
+}
+table.tbl-main .form-input {
+  display: inline-block;
+  vertical-align: middle;
+  height: 22px;
+  padding: 0;
+  border-radius: 0;
+  background-color: transparent;
+  border: none;
+  text-align: center;
 }
 table.tbl-main.tbl-main-inner {
   border-spacing: 0;
@@ -1255,6 +1330,28 @@ body {
   font-size: 16px;
   line-height: 1.375;
   font-weight: 500;
+}
+.item-tile-doc-list .tile-title .form-input {
+  padding: 0;
+  display: block;
+  border-radius: 0;
+  border: none;
+  height: 22px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: transparent;
+}
+.item-tile-doc-list .tile-title [placeholder]::-webkit-input-placeholder {
+  color: var(--clr-title);
+}
+.item-tile-doc-list .tile-title [placeholder]:-moz-placeholder {
+  color: var(--clr-title);
+}
+.item-tile-doc-list .tile-title [placeholder]::-moz-placeholder {
+  color: var(--clr-title);
+}
+.item-tile-doc-list .tile-title [placeholder]:-ms-input-placeholder {
+  color: var(--clr-title);
 }
 .item-tile-doc-list .btn {
   padding: 0 10px 0 5px;
@@ -2694,8 +2791,8 @@ body.popup-open {
   overflow: auto;
 }
 .table-box.table-full .table-scroll-wrap::-webkit-scrollbar {
-  height: 3px;
-  width: 3px;
+  height: 6px;
+  width: 6px;
   background-color: #D9D9D9;
 }
 .table-box.table-full .table-scroll-wrap::-webkit-scrollbar-thumb {

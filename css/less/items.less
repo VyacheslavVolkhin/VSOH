@@ -26,6 +26,19 @@
         font-size: 16px;
         line-height: 22/16;
         font-weight: 500;
+        .form-input {
+            padding: 0;
+            display: block;
+            border-radius: 0;
+            border: none;
+            height: 22px;
+            box-shadow: none;
+            background-color: transparent;
+        }
+        [placeholder]::-webkit-input-placeholder {color: var(--clr-title);}
+        [placeholder]:-moz-placeholder {color: var(--clr-title);}
+        [placeholder]::-moz-placeholder {color: var(--clr-title);}
+        [placeholder]:-ms-input-placeholder {color: var(--clr-title);}
     }
     .btn {
         padding: 0 10px 0 5px;
