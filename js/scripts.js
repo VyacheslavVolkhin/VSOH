@@ -312,4 +312,15 @@ window.onload = function () {
             }
         }
     }
+    
+    //copy link
+    $('.js-link-copy').on('click', function() {
+        let text = $(this).attr('data-link');
+        copyLink(text);
+        $('.js-btn-toggle').removeClass('active');
+        return false;
+    })
+    function copyLink(text) {
+        navigator.clipboard.writeText(text);
+    }
 }

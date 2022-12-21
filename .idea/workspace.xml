@@ -3,16 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="33c1e436-f245-4d66-b94e-65d1b59486dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_html/LK-inner.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/LK-inner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_html/inner11.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/inner11.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_html/inner12.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/inner12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_html/inner13.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/inner13.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_html/inner16.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/inner16.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_html/inner17.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/inner17.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_html/inner18.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/inner18.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/inner15.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/inner15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/object.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/object.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/less/content.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/less/content.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/less/items.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/less/items.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/less/main.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/less/main.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,18 +36,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/htmlworker/Sites/0146/VSOH/_includes&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/htmlworker/Sites/0146/VSOH/_html",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editing.templates",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/_includes" />
       <recent name="$PROJECT_DIR$/_html" />
+      <recent name="$PROJECT_DIR$/_includes" />
       <recent name="$PROJECT_DIR$/css/less" />
     </key>
   </component>
@@ -82,6 +78,7 @@
       <workItem from="1611832621185" duration="264000" />
       <workItem from="1671203908303" duration="50569000" />
       <workItem from="1671505969744" duration="2620000" />
+      <workItem from="1671648546053" duration="1162000" />
     </task>
     <servers />
   </component>
